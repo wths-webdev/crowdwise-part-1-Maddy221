@@ -1,10 +1,11 @@
-main{
-    border: 1px red solid;
-    
+
+body{
+    text-align: center;
+    /*margin-left: 550px;*/
 }
-header{
-    border: 1px red solid;
-}
-footer{
-    border: 1px red solid;
+/*header{
+    margin-left:150px;
+}*/
+img{
+    height:100px;
 }
