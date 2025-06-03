@@ -1,11 +1,13 @@
 
-body{
-    text-align: center;
-    /*margin-left: 550px;*/
+.card{
+    border-radius: 50%;
+    border: 1px red solid;
+    flex: wrap;
+    margin: auto;
+    width: 500px;
+    
 }
-/*header{
-    margin-left:150px;
-}*/
+
 img{
     height:100px;
 }
