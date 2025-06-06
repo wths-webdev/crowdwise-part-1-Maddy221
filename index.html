@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body style="text-align: center;">
@@ -12,94 +12,48 @@
         <img src="images/crowdwise.svg" alt="">
     </header>
     <main>
-        <div class="ending-soon" style="text-align: center;" >
-            <div class="card text-bg-light mb-3">
-                <div class="card-header" style="text-align: left;font-size: 30px;">Ending Soon</div>
-                <div class="card-body" style="text-align: left;">
-                    <h3>What ice cream should I have?</h3>
-                    <p>Food  Entertainment   Dessert</p>
-                    <p>Chocolate 66%</p>
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 66%"></div>
-                    </div>
-                    <p>Vanilla 14%</p>
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 14%"></div>
-                    </div>
-                    <p>Chocolate 30%</p>
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 30%"></div>
-                    </div>
-                    <p>Votes: 657</p>
-                    <p>24 hours left</p>
-                    <button>Vote</button>
-                </div>
+        <div class="ending-soon" style="text-align: left;" >
+            <div class="text">
+                <p style="color: palevioletred;font-size: 30px;margin-bottom: 0px;margin-top: 10px;">Ending soon</p>
                 <hr>
-                <div class="card-body" style="text-align: left;">
-                    <h3>What movie  should I watch?</h3>
-                    <p>Movies  Entertainment </p>
-                    <p>Detective Pikachu 20%</p>
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 20%"></div>
-                    </div>
-                    <p>Sonic the Hedgehog 10%</p>
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 10%"></div>
-                    </div>
-                    <p>Shindlers List 70%</p>
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 70%"></div>
-                    </div>
-                    <p>Votes: 700</p>
-                    <p>2 days left</p>
-                    <button>Vote</button>
+                <h2>What ice cream should i have?</h2>
+                <h4>Fod Entertainment Dessert</h4>
+                <p>Chocolate 66%</p>
+                <div class="range" style="background-color: rgb(235,110,135);">
+                    <div class="percentage" style="width 34%; background-color: red;"></div>
                 </div>
-            </div>     
+                <p>Vanilla 14%</p>
+                <div class="range" style="background-color: rgb(235,110,135);">
+                    <div class="percentage" style="width %; background-color: red;"></div>
+                </div>
+                <p>Strawberry 30%</p>
+                <p>Votes: 657</p>
+                <p>23 Hours left</p>
+                <button>Vote</button>
+                <hr>
+                <h2>What movie should i watch?</h2>
+                <h4>Movies Entertainment</h4>
+                <p>Detective Pikachu 20%</p>
+                <p>Sonic the Hedgehog 10%</p>
+                <p>Shindlers List 70%</p>
+                <p>Votes: 700</p>
+                <p>2 Days left</p>
+                <button>Vote</button>
+            </div>
         </div>
-        <div class="new">
-            <div class="card text-bg-light mb-3">
-                <div class="card-header" style="text-align: left; font-size: 30px;">New</div>
-                <div class="card-body" style="text-align: left;">
-                    <h3>What Car should I buy?</h3>
-                    <p>Cars Money</p>
-                    <p>Honda Civic 66%</p>
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 66%"></div>
-                    </div>
-                    <p>Toyota Corolla 14%</p>
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 14%"></div>
-                    </div>
-                    <p>Ford Bronco 30%</p>
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 30%"></div>
-                    </div>
-                    <p>Votes: 630057</p>
-                    <p>48 hours left</p>
-                    <button>Vote</button>
-                </div>
+        <div class="new" style="text-align: left;">        
+            <div class="text">
+                <p style="color: palevioletred;font-size: 30px;margin-bottom: 0px;margin-top: 10px;">New</p>
                 <hr>
-                <div class="card-body" style="text-align: left;">
-                    <h3>What Dog should I adopt?</h3>
-                    <p>Dogs </p>
-                    <p>Bernese Mountain Dog 15%</p>
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 15%"></div>
-                    </div>
-                    <p>Golden Retreiver 50%</p>
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 50%"></div>
-                    </div>
-                    <p>Great Pyreneese 70%</p>
-                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 70%"></div>
-                    </div>
-                    <p>Votes: 15k</p>
-                    <p>72 hours left</p>
-                    <button>Vote</button>
-                </div>
-            </div>     
-
+                <h2>What car should i buy?</h2>
+                <h4>Cars Money</h4>
+                <p>Ford 20%</p>
+                <p>Honda 10%</p>
+                <p>Toyota 70%</p>
+                <p>Votes: 700</p>
+                <p>2 Days left</p>
+                <button>Vote</button>
+            </div>
         </div>
 
 
@@ -108,10 +62,17 @@
 
 
     </main>
-    <footer>
-
+    <footer class="site-footer">
+        <nav class="site-nav">
+            <ul>
+                <li><a href="#"><span class="sr-only">Home</span> <i class="fa-solid fa-house""></i></a></li>
+                <li><a href="#"><span class="sr-only">New</span>  <i class="fa-solid fa-plus"></i></a></li>
+                <li><a href="#"><span class="sr-only">My Polls</span>  <i class="fa-solid fa-square-poll-horizontal"></i></a></li>
+                <li><a href="#"><span class="sr-only">Alerts</span>  <i class="fa-solid fa-bell"></i></a></li>
+                <li><a href="#"><span class="sr-only">Profile</span>  <i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </nav>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
