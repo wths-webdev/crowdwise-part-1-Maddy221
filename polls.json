@@ -1,0 +1,82 @@
+{
+    "polls":[
+        {
+            "question":"What ice cream should i have",
+            "id": 1,
+            "totalVotes": 0,
+            "tags":[
+                {"tag":1},
+                {"tag":2},
+                {"tag":3}
+            ],
+            "choices":[
+                {"label":"Vanilla","id": 1, "votes": 0},
+                {"label":"Chocolate","id": 1, "votes": 0},
+                {"label":"Strawberry","id": 1, "votes": 0}
+            ],
+            "endDate": "",
+            "dateCreated": "",
+            "user":2
+        },
+    
+        {
+            "question":"What movie should i watch",
+            "id": 1,
+            "totalVotes": 0,
+            "tags":[
+                {"tag":1},
+                {"tag":2},
+                {"tag":3}
+            ],
+            "choices":[
+                {"label":"Detective Pikachu","id": 1, "votes": 0},
+                {"label":"Sonic the Hedgehog","id": 1, "votes": 0},
+                {"label":"Shindlers List","id": 1, "votes": 0}
+            ],
+            "endDate": "",
+            "dateCreated": "",
+            "user":2
+        },
+        
+        {
+            "question":"WHat car should i buy",
+            "id": 1,
+            "totalVotes": 0,
+            "tags":[
+                {"tag":1},
+                {"tag":2},
+                {"tag":3}
+            ],
+            "choices":[
+                {"label":"Ford","id": 1, "votes": 0},
+                {"label":"Honda","id": 1, "votes": 0},
+                {"label":"Toyota","id": 1, "votes": 0}
+            ],
+            "endDate": "",
+            "dateCreated": "",
+            "user":2
+        },
+        
+        {
+            "question":"What dog should i get",
+            "id": 1,
+            "totalVotes": 0,
+            "tags":[
+                {"tag":1},
+                {"tag":2},
+                {"tag":3}
+            ],
+            "choices":[
+                {"label":"Poodle","id": 1, "votes": 0},
+                {"label":"Golden Retreiver","id": 1, "votes": 0},
+                {"label":"Shitzu","id": 1, "votes": 0}
+            ],
+            "endDate": "",
+            "dateCreated": "",
+            "user":2
+        }
+        
+
+    ]
+    
+}
